@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whac a Mole Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="scoretable">
+    <div>
+        SCORE:
+        <p class="score">00</p>
+    </div>
+    <div>
+        LIFE:
+        <p class="life">6</p>
+    </div>
+    <div>LEVEL:
+        <span id="levelText"></span>
+    </div>
+
+</div>
+<div class="modal">
+    <div class="display">
+        <button>START THE GAME</button>
+    </div>
+</div>
+<div class="board" id="board">
+    <div class="row">
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+
+    </div>
+    <div class="row">
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+    </div>
+    <div class="row">
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+    </div>
+</div>
+<div class="cursor"></div>
+<div class="gameOverModal">
+    <div class="gameOver">
+        <h3>GAME OVER!!</h3>
+        <button>RETRY</button>
+    </div>
+</div>
+<div class="levelModal">
+    <div class="level">
+        <h2> NEXT LEVEL
+            <span id="headerLevelSpan"></span>
+        </h2>
+        <button> Click The Button</button>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+
+</html>
